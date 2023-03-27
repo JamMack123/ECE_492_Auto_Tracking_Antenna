@@ -1,0 +1,1 @@
+rotctld -m 202 -r COM6 -s 9600 -T 127.0.0.1 -t 4533 -C timeout=500 -C retry=0 -vvvvvvvv > pause install GPredict
