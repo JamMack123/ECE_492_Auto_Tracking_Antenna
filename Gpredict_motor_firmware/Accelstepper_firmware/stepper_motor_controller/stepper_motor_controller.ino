@@ -23,7 +23,7 @@
  */
 
 #define SAMPLE_TIME        0.1   ///< Control loop in s
-#define RATIO              108    ///< Gear ratio of rotator gear box                                 default 54
+#define RATIO              867    ///< Gear ratio of rotator gear box                                 default 54
 #define MICROSTEP          8     ///< Set Microstep
 #define MIN_PULSE_WIDTH    20    ///< In microsecond for AccelStepper
 #define MAX_SPEED          3200  ///< In steps/s, consider the microstep
@@ -77,6 +77,8 @@ void setup() {
     stepper_el.setMaxSpeed(MAX_SPEED);
     stepper_el.setAcceleration(MAX_ACCELERATION);
     stepper_el.setMinPulseWidth(MIN_PULSE_WIDTH);
+    stepper_az.setSpeed(MAX_SPEED);
+    stepper_el.setSpeed(MAX_SPEED);
 
     // Initialize WDT
    // wdt.watchdog_init();
@@ -115,6 +117,7 @@ void loop() {
                 rotator.rotator_error = homing_error;
             }
         } else {
+            
             // Control Loop
             stepper_az.moveTo(deg2step(control_az.setpoint));
             stepper_el.moveTo(deg2step(control_el.setpoint));
