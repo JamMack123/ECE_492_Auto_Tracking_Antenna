@@ -1,6 +1,6 @@
 # ECE_492_Capstone_stuff
 A Repo for all things related to our capstone. <br />
-Marlin will need to be compiled and uploaded first, then the stepper_motor_controller.ino in Gpredict_motor_firmware/Accelstepper_firmware/stepper_motor_controller/.
+Marlin.ino will need to be compiled and uploaded first in Marlin/Marlin-2.1.2/Marlin/, then the stepper_motor_controller.ino in Gpredict_motor_firmware/Accelstepper_firmware/stepper_motor_controller/.
 
 # gpredict_bat.bat
 Batchfile to run hamlib to connect gpredict to serial port (need to edit with com#)<br />
