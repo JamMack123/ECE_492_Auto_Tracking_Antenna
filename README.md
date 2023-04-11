@@ -10,4 +10,5 @@ Make sure you add the RAMBo board by going into preferences and adding this addi
 https://raw.githubusercontent.com/ultimachine/ArduinoAddons/master/package_ultimachine_index.json
 
 # Hamlib and Gpredict
-You can download hamlib from https://sourceforge.net/projects/hamlib/ and Gpredict from https://sourceforge.net/projects/gpredict/ 
+You can download hamlib from https://sourceforge.net/projects/hamlib/ and Gpredict from https://sourceforge.net/projects/gpredict/ <br />
+In Gpredict, go to preferences and change your ground station, and then go to interfaces and add a rotator. Give the rotator a name, the host should be localhost and the port should be 4533. Set the max azimuth to 240 degrees.
