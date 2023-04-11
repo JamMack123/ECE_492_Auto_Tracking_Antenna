@@ -2,3 +2,4 @@ Open Marlin/Marlin.ino in the arduino ide to make any configuration changes. Cur
 Make sure the TMCStepper library by teemuatlut is installed in your arduino ide library manager.<br />
 The library should look like this: <br />
 ![](TMCStepper_screenshot.png)
+It will take a while to compile marlin.
