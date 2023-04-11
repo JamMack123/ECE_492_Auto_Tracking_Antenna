@@ -4,7 +4,8 @@ Marlin.ino will need to be compiled and uploaded first in Marlin/Marlin-2.1.2/Ma
 
 # gpredict_bat.bat
 Batchfile to run hamlib to connect gpredict to serial port (need to edit with com#)<br />
-This batch file should be put where the rotctld.exe file is at Program Files\hamlib\bin and it needs to be run with command prompt in administrator mode.
+This batch file should be put where the rotctld.exe file is at Program Files\hamlib\bin and it needs to be run with command prompt in administrator mode. <br />
+Make sure the Arduino IDE serial monitor is closed when trying to run the batch file, as the COM port can only be used by one process at a time.
 
 # Arduino IDE
 Make sure you add the RAMBo board by going into preferences and adding this additional board manager url:
