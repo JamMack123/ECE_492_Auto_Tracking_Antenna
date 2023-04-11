@@ -14,4 +14,4 @@ This is tested using version 2.0.4 of the arduino IDE.
 
 # Hamlib and Gpredict
 You can download hamlib from https://sourceforge.net/projects/hamlib/ and Gpredict from https://sourceforge.net/projects/gpredict/ <br />
-In Gpredict, go to preferences and change your ground station, and then go to interfaces and add a rotator. Give the rotator a name, the host should be localhost and the port should be 4533. Set the max azimuth to 240 degrees.
+In Gpredict, go to preferences and change your ground station, and then go to interfaces and add a rotator. Give the rotator a name, the host should be localhost and the port should be 4533. Set the max azimuth to 240 degrees and the max elevation to 90 degrees.
