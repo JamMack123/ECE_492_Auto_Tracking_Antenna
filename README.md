@@ -9,7 +9,7 @@ Make sure the Arduino IDE serial monitor is closed when trying to run the batch 
 
 # Arduino IDE
 Make sure you add the RAMBo board by going into preferences and adding this additional board manager url:
-https://raw.githubusercontent.com/ultimachine/ArduinoAddons/master/package_ultimachine_index.json <br />
+https://raw.githubusercontent.com/ultimachine/ArduinoAddons/master/package_ultimachine_index.json and use the Rambo board in the board manager, along with the com port that the board is connect to.<br />
 This is tested using version 2.0.4 of the arduino IDE.
 
 # Hamlib and Gpredict
