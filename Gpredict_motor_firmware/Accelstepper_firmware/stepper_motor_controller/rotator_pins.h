@@ -12,12 +12,12 @@
 
 //#define M1IN1 10 ///< Motor 1 PWM pin
 #define M1IN1 37 ///< X_Step
-#define M1IN2 48  ///< X_Dir
+#define M1IN2 49  ///< X_Dir
 #define M1SF  7  ///< Motor 1 digital input, status flag for DC Motor Drivers
 #define M1FB  A1 ///< Motor 1 analog input, current/load feedback for DC Motor Drivers
 
 #define M2IN1 36 ///< Y_Step
-#define M2IN2 49  ///< Y_Dir
+#define M2IN2 48  ///< Y_Dir
 #define M2SF  7 ///< Motor 2 digital input, status flag for DC Motor Drivers
 #define M2FB  A0 ///< Motor 2 analog input, current/load feedback for DC Motor Drivers
 
